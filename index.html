@@ -1,1 +1,33 @@
-Hello World
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ site.data.portfolio.title-header }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.data.portfolio.seo-description }}">
+    <meta rel="author" content="{{ site.data.portfolio.rel-author }}">
+    <meta name="publisher" content="{{ site.data.settings.rel-publisher }}">
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+    <nav class="nav-column">
+        {% include nav-column.html %}
+    </nav>
+    <section class="main-container">
+        {% include header.html %}
+        {% include about.html %}
+        {% include skills.html %}
+        {% include projects.html %}
+        {% include mentions.html %}
+        {% include contact.html %}
+        {% include contact-form.html %}
+        {% include footer.html %}
+    </section> 
+    <script src="/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="/assets/js/functions.js" type="text/javascript"></script>
+</body>
+</html>
