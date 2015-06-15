@@ -5,7 +5,7 @@ $(function() {
     
     mentionsStuff();
     
-    $("h1").fitText(1, { minFontSize: '40px', maxFontSize: '70px' });
+    $("h1").fitText(1, { minFontSize: '48px', maxFontSize: '70px' });
     
 });
 
