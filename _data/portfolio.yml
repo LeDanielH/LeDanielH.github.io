@@ -8,7 +8,7 @@ rel-author: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
 rel-publisher: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
 avatar: 'profile-pic.jpg'
 background: 'ledaniel400.png'
-intro: I design websites&#44; I compose music&#44; I write lyrics. I used to catch fish in the Bering Sea. I am currenly working on my programming skills.<a href=https://bsvs.me target=_blank>BERINGSEAVERSUS.ME</a> is my biggest project so far.
+intro: I design websites&#44; I compose music&#44; I write lyrics and I love video games. I used to catch fish in the Bering Sea. I am currenly working on my programming skills. <a href=https://bsvs.me target=_blank>BERINGSEAVERSUS.ME</a> is my biggest project so far.
 
 #MENU ITEM LIST
 
@@ -23,15 +23,15 @@ menu:
 
 skills:
 - {name: Work Ethic, value: '10'}
-- {name: Problem Solving, value: '9'}
-- {name: Social Skills, value: '3'}
+- {name: Resilience, value: '8'}
+- {name: Social Skills, value: '4'}
 - {name: Empathy, value: '8'}
 - {name: Creative Thinking, value: '9'}
-- {name: Negotiation Skills, value: '4'}
+- {name: Coatching Skills, value: '9'}
 - {name: Heavy Multitasking, value: '3'}
-- {name: Learning, value: '8'}
-- {name: Independence, value: '8'}
-- {name: Adaptability, value: '6'}
+- {name: Learning, value: '7'}
+- {name: Self-reliant, value: '9'}
+- {name: Adaptability, value: '7'}
 
 #PROJECTS/WORK LIST
 
