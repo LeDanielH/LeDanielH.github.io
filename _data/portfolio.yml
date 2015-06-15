@@ -1,0 +1,65 @@
+# Portfolio settings
+title: Le<span class="red">Daniel</span>_H
+title-header: LeDaniel_H alias Daniel Hoksza
+email: daniel.hoksza@gmail.com
+description: Designer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Gamer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Composer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Father
+seo-description: Daniel Hoksza portfolio website.
+rel-author: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
+rel-publisher: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
+avatar: 'profile-pic.jpg'
+background: 'ledaniel400.png'
+intro: <strong>I specialize in creating stuff from scratch,</strong> like making kids. I design websites&#44; I compose music&#44; I write lyrics. I used to catch fish in the Bering Sea. <a href=https://bsvs.me target=_blank>BERINGSEAVERSUS.ME</a> is my biggest project so far.
+
+#MENU ITEM LIST
+
+menu:
+- {name: Me, url: '#me'}
+- {name: Skills, url: '#skills'}
+- {name: Work, url: '#projects'}
+- {name: Mentions, url: '#mentions'}
+- {name: Contact, url: '#contact'}
+
+#SKILL LIST
+
+skills:
+- {name: Work Ethic, value: '10'}
+- {name: Problem Solving, value: '9'}
+- {name: Social Skills, value: '3'}
+- {name: Empathy, value: '8'}
+- {name: Creative Thinking, value: '9'}
+- {name: Negotiation Skills, value: '4'}
+- {name: Heavy Multitasking, value: '3'}
+- {name: Learning, value: '8'}
+- {name: Independence, value: '8'}
+- {name: Adaptability, value: '6'}
+
+#PROJECTS/WORK LIST
+
+projects:
+- {name: websites, folder: 'proj-1'}
+- {name: videos, folder: 'proj-2'}
+- {name: music, folder: 'proj-3'}
+- {name: lyrics, folder: 'proj-4'}
+
+#mentions
+
+mentions:
+- {logotop: 'xman-cz-kos-on-white.png', content: <strong>Interview</strong> with me about my lifeexperience from a fishing boat in the Bering Sea. How I got the job&#44; about working conditions on a fishing boat&#44; injuries I witnessed and some personal stuff about me. My website BERINGSEAVERSUS.ME is also mentioned in this interview., name: XMAN.CZ, title: A website for men... with balls., logobottom: 'xman-cz-kos-on-black.png' }
+- {logotop: 'respekt-cz-kos-on-white.png', content: I wrote an article called &#34;One Day On A Fishing Boat In The Bering Sea&#34; for one of the most respected magazines in Czech Republic. , name: RESPEKT.CZ, title: Weekly newsmagazine published in Prague&#44; CZ., logobottom: 'respekt-cz-kos-on-black.png' }
+- {logotop: 'amerika-cz-kos-on-white.png', content: Article/interview with me about my workexperience on a fishing boat in the Bering Sea and also about my website BERINGSEAVERSUS.ME. My pains&#44; my gains., name: AMERIKA.CZ, title: For people traveling to USA. Based in Prague&#44; CZ., logobottom: 'amerika-cz-kos-on-black.png' }
+- {logotop: 'fishery-nation-kos-on-white.png', content: <em>This is a great website&#44; and it&#39;s very informative. You wanna go&#63; This guy will get you there. </em>My website BSVS.ME recommended by FISHERYNATION.COM, name: FISHERYNATION.COM, title: Fishing news from all over the world, logobottom: 'fishery-nation-kos-on-black.png' }
+
+# Change site default images and content
+
+#contact
+
+contacts:
+- {icon: 'ic-google-plus', url: 'https://plus.google.com/+DanielHoksza/posts/p/pub'}
+- {icon: 'ic-instagram', url: 'https://instagram.com/beringseaversus.me/'}
+- {icon: 'ic-twitter', url: 'https://twitter.com/LeDaniel_H'}
+- {icon: 'ic-soundcloud', url: 'https://soundcloud.com/diwerio'}
+- {icon: 'ic-linkedin2', url: 'https://cz.linkedin.com/pub/daniel-hoksza/36/b29/881'}
+
+# For no JS users
+projectNoscript: >
+    **Enable your JS!**

@@ -1,0 +1,24 @@
+<section class="section-work">
+    <h3 id="projects">My Work</h3>
+    <div class="work-slider">
+        <div class="projects-wrapper">
+            <div class="projects-container">
+                {% for project in site.data.portfolio.projects %}
+                    <a class="project-unit" data-folder="{{ project.folder }}" style="background-image: url(/assets/img/{{ project.folder }}/thumb.jpg)">
+                        <div class="project-overlay">
+                            <strong>{{ project.name }}</strong>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="work-wrapper">
+            <div class="work-container">
+                <div class="work-return">{% include icons/back-arrow.html %}</div>
+                <div class="project-load">
+                    <div class="loader">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

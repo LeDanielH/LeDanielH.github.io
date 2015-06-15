@@ -1,0 +1,5 @@
+<nav>
+    {% for item in site.data.portfolio.menu %}
+        <a class="nav-link" href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+</nav>

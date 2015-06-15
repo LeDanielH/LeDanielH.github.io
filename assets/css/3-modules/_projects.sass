@@ -1,0 +1,108 @@
+.section-work
+    overflow-x: hidden
+    background: $white
+        
+.work-slider
+    width: 200%
+    position: relative
+    left: 0%
+    +transition(1000ms)
+        
+    &.slided
+        +transform(translate3d(-50%, 0, 0))
+    
+.projects-wrapper, .work-wrapper
+    width: 50%
+    float: left
+    
+    
+.projects-container
+    max-width: 760px
+    margin: 0 auto 30px
+    padding: 0 30px 30px 30px
+    overflow: auto
+    +clearfix
+    
+    @media screen and (max-width: 340px)
+        padding: 0
+    
+    .project-unit
+        display: block
+        margin: 0 auto
+        min-width: 50%
+        height: 170px
+        float: left
+        position: relative
+        +perspective(500)
+        @if $animation != "bounceOut"
+        overflow: hidden
+            
+        @media screen and (max-width: 840px)
+            max-width: 380px
+            min-width: 300px
+            height: 170px
+            float: none
+            
+        @media screen and (max-width: 480px)
+            height: 160px
+            
+        @media screen and (max-width: 340px)
+            height: 150px
+            
+        background:
+            size: cover
+            repeat: no-repeat
+            position: center center
+                
+        .project-overlay
+            +position(absolute, 0px)
+            background: fade-out($red, 0.2)
+            cursor: pointer
+            +display(flex)
+            +align-items(center)
+            @extend %animationstart_#{$animation}
+            
+            strong
+                display: block
+                color: $white
+                text-transform: uppercase
+                font-size: 20px
+                margin: 0 auto
+                
+        &:hover 
+            z-index: 1
+            .project-overlay
+                @extend %#{$animation}
+                +display(flex)
+    
+.work-container
+    max-width: 760px
+    margin: 0 auto
+    padding: 0 30px 30px 30px
+    position: relative
+    display: none
+    
+    img
+        max-width: 100%
+    
+    .work-return
+        +size(50px)
+        cursor: pointer
+        opacity: 0.5
+        +position(absolute, -10px null null -40px)
+        margin-bottom: 30px
+        
+        @media (max-width: 1150px)
+            position: static
+            +transition(200ms)
+            margin-bottom: 0px
+        
+        @media (min-width: 1150px)
+            +transition(200ms)
+            
+        path
+            fill: $red
+            stroke: 1px solid $black
+        
+        &:hover
+            opacity: 1
