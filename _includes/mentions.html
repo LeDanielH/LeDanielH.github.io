@@ -1,0 +1,36 @@
+<section id="mentions-section">
+    <h3 id="mentions">Mentions</h3>
+    <div class="mentions-mobile-nav">
+        {% for mentions in site.data.portfolio.mentions %}
+            <span></span>
+        {% endfor %}
+    </div>
+    <div class="mentions-controls">
+        <div class="mentions-next">{% include icons/back-arrow.html %}</div>
+        <div class="mentions-previous">{% include icons/back-arrow.html %}</div>
+    </div>
+    <div class="mentions-belt">
+        {% for mentions in site.data.portfolio.mentions %}
+            <div class="mentions-unit">
+                <div class="mentions-face">
+                    <a href="{{ mentions.url }}" target="_blank"><img src="/assets/img/mentions/logos-on-white/{{ mentions.logotop }}" alt="mention-face"></a>
+                    <!--<strong class="mentions-name">{{ mentions.name }}</strong>
+                    <em class="mentions-title">{{ mentions.title }}</em>-->
+                </div>
+                <div class="mentions-content">
+                    <div class="mentions-quote-mark-first">{% include icons/quotation-marks-first.html %}</div>
+                    <div class="polygon-left"></div>
+                    <p>{{ mentions.content }}</p>
+                    <div class="mentions-quote-mark-second">{% include icons/quotation-marks-second.html %}</div>
+                    <br>
+                    <strong class="mentions-name">{{ mentions.name }}&nbsp;&nbsp;&nbsp;<span class="be-red">&#47;&#47;</span>&nbsp;&nbsp;&nbsp;{{ mentions.title}}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="mentions-logos">
+        {% for mentions in site.data.portfolio.mentions %}
+            <div class="mentions-logo" style="background-image: url(/assets/img/mentions/logos-on-black/{{ mentions.logobottom }})"></div>
+        {% endfor %}
+    </div>
+</section>

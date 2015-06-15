@@ -1,0 +1,64 @@
+.section-contact
+    text-align: center
+    
+    .social-links
+        max-width: 700px
+        margin: 0 auto 60px
+        padding: 0 20px
+        +display(flex)
+        +justify-content(space-around)
+        +flex-wrap(wrap)
+
+        .social-wrap
+            position: relative
+            +size(50px)
+            margin: 20px
+
+            .social-rot
+                display: block
+                position: absolute
+                z-index: 1
+                background: $black
+                +size(50px)
+                transform: rotate(45deg)
+                +transition(500ms)
+                overflow: hidden
+                //text-align: center
+                cursor: pointer
+
+            a
+                display: block
+                position: absolute
+                margin: 0 auto
+                left: 12px
+                z-index: 2
+                line-height: 50px
+                color: $white
+                font-size: 25px
+
+
+            &:hover
+                .social-rot
+                    transform: rotate(0deg)
+                    +transition(500ms)
+                    background: $red
+
+    .double-hr
+        max-width: 280px
+        margin: 40px auto
+        color: $red
+
+    .huge
+        display: inline-block
+        font-weight: 300
+        //text-align: center
+        margin: 20px auto 60px
+    
+        
+    @media (max-width: 840px)
+        .huge
+            font-size: 30px
+            
+    @media (max-width: 480px)
+        .huge
+            font-size: 22px

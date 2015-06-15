@@ -1,0 +1,70 @@
+body
+    +outer-container(100%)
+    background-color: $red
+    //overflow-x: hidden
+    min-width: 320px
+
+    
+    .nav-column 
+        +span-columns(2)
+        max-width: 170px
+        background-color: $black
+        position: fixed
+        text-align: center
+        +display(flex)
+        +align-items(center)
+        +justify-content(space-around)
+        height: 100%
+        border-right: 25px solid $white
+        
+        .nav-link
+            color: $red
+            display: block
+            text-transform: uppercase
+            padding: 30px 0
+            
+            &:hover
+                color: $white
+                
+    .main-container 
+        +span-columns(9)
+        +shift(2)
+        @media(1300px)
+            margin-left: 240px
+        
+    @media screen and (max-width: 1180px)
+        
+        .nav-column
+            border-right: none
+            width: 140px
+            
+            .nav-link  
+                padding: 30px 36px
+        
+        .main-container
+            margin-left: 195px
+
+    @media screen and (max-width: 1000px)
+            
+        .main-container
+            +span-columns(10)
+            +shift(2)
+            margin-left: 152px
+            
+    @media screen and (max-width: 800px)
+        .main-container
+            margin-left: 140px
+        .nav-column
+            width: 130px
+            .nav-link
+                padding: 30px 32px
+
+    @media screen and (max-width: 570px)
+
+        .nav-column
+            display: none
+
+        .main-container
+            +span-columns(12)
+            +shift(0)
+            padding-right: 0px
