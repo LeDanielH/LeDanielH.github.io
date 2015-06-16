@@ -1434,12 +1434,8 @@ section {
   justify-content: space-between;
   -ms-flex-pack: justify; }
   .face-area .face-img {
-    height: 120px;
-    width: 120px;
-    background-color: #FFFFFF;
-    transform: rotate(45deg);
-    overflow: hidden;
-    margin: 30px;
+    height: 150px;
+    width: 150px;
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
     box-ordinal-group: 3;
@@ -1447,13 +1443,6 @@ section {
     -moz-order: 3;
     order: 3;
     -ms-flex-order: 3; }
-    .face-area .face-img .img-rot {
-      background-image: url(/assets/img/profile-pic.jpg);
-      height: 155px;
-      width: 155px;
-      background-size: cover;
-      margin: -10px;
-      transform: rotate(-45deg); }
   .face-area [class^="icon-"] {
     height: 100px;
     width: 100px; }
