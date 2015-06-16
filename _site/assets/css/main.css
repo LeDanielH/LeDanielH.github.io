@@ -1640,9 +1640,9 @@ section {
         .skill-container .skill-area .skill-unit .skill-icons.skill-10 span:nth-child(n+11) {
           background: #E6E6E6; }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 730px) {
   .skill-unit:nth-child(2n+1) {
-    margin-right: 30px !important; } }
+    margin-right: 50px !important; } }
 @media screen and (max-width: 460px) {
   .skill-unit:nth-child(2n+1) {
     float: left !important;
