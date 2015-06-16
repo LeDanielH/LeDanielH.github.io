@@ -1434,15 +1434,32 @@ section {
   justify-content: space-between;
   -ms-flex-pack: justify; }
   .face-area .face-img {
-    height: 150px;
-    width: 150px;
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
     box-ordinal-group: 3;
     -webkit-order: 3;
     -moz-order: 3;
     order: 3;
-    -ms-flex-order: 3; }
+    -ms-flex-order: 3;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    perspective: 1000; }
+    .face-area .face-img .face-card {
+      transform-style: preserve-3d;
+      transition: all 300ms linear; }
+      .face-area .face-img .face-card:hover {
+        transform: rotateY(180deg); }
+      .face-area .face-img .face-card .profile-img {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        backface-visibility: hidden; }
+      .face-area .face-img .face-card .logo-img {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        transform: rotateY(180deg); }
   .face-area [class^="icon-"] {
     height: 100px;
     width: 100px; }
@@ -1561,7 +1578,10 @@ section {
     .face-area div {
       display: inline-block; }
     .face-area .face-img {
-      margin: 0px auto 30px auto; } }
+      margin: 30px auto;
+      pointer-events: none; }
+      .face-area .face-img .face-card .logo-img {
+        position: relative; } }
 @media screen and (max-width: 690px) {
   .face-area {
     display: block;

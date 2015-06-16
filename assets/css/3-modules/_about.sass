@@ -11,8 +11,29 @@ section
     +justify-content(space-between)
         
     .face-img
-        +size(150px)
         +order(3)
+        position: relative
+        +size(150px)
+        perspective: 1000
+        //z-index: 1
+        
+        .face-card
+            transform-style: preserve-3d
+            transition: all 300ms linear
+            
+            &:hover
+                transform: rotateY(180deg)
+            
+            .profile-img
+                position: absolute
+                +size(150px)
+                backface-visibility: hidden
+
+            .logo-img
+                +size(150px)
+                position: absolute
+                transform: rotateY(180deg)
+        
     
     [class^="icon-"]
         +size(100px)
@@ -101,13 +122,21 @@ section
                 
     .face-area
         text-align: center
-        //+justify-content(space-around)
         margin: 30px auto
             
         div
             display: inline-block
-        
+            
         .face-img
+            margin: 30px auto
+            pointer-events: none
+            
+            .face-card
+
+                .logo-img
+                    position: relative
+        
+        //.face-img
             margin: 0px auto 30px auto
             
 @media screen and (max-width: 690px)

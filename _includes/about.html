@@ -1,7 +1,12 @@
 <section id="section-about">
     <h3 id="me">Me</h3>
     <div class="face-area">
-        <img class="face-img" src="/assets/img/{{ site.data.portfolio.profile-pic }}" alt="profile-pic">
+        <div class="face-img">
+            <div class="face-card">
+                <img class="profile-img" src="/assets/img/{{ site.data.portfolio.profile-pic }}" alt="profile-pic">
+                <img class="logo-img" src="/assets/img/{{ site.data.portfolio.logo-pic }}" alt="logo-pic">
+            </div>
+        </div>
         <div class="icon-mixer">
             <div class="mixer-top">{% include icons/mixer.html %}</div>
             <div class="mixer-hovered">{% include icons/mixer-hovered.html %}</div>
