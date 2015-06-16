@@ -1281,7 +1281,7 @@ body {
         padding: 30px 36px; }
     body .main-container {
       margin-left: 195px; } }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1050px) {
     body .main-container {
       float: left;
       display: block;
@@ -1350,7 +1350,7 @@ h1 {
   text-align: center;
   font-weight: 300;
   font-size: 16px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.1px;
   text-transform: uppercase;
   color: #E6E6E6;
   line-height: 1.5;
@@ -1372,7 +1372,7 @@ h1 {
     border-right: none; }
 
   .kicker {
-    font-size: 14px;
+    font-size: 15px;
     margin: 0 20px; } }
 @media screen and (max-width: 480px) {
   h1 span {
@@ -1560,7 +1560,11 @@ section {
     display: inline-block !important; }
 
   [class^="icon-"], .pacman-top {
-    position: static !important; }
+    position: static !important;
+    margin-right: 10px; }
+
+  .icon-anchor {
+    pointer-events: none; }
 
   .face-area {
     text-align: center;
@@ -1595,11 +1599,10 @@ section {
   overflow-x: hidden; }
   .skill-container .skill-area {
     max-width: 860px;
-    margin: 0px auto;
-    padding: 0px 30px 60px 30px;
+    margin: 0px 30px 60px 30px;
     color: #E6E6E6; }
     .skill-container .skill-area .skill-unit {
-      width: 340px;
+      width: 339px;
       margin: 0 auto;
       display: inline-block; }
       .skill-container .skill-area .skill-unit:nth-child(2n+1) {
@@ -1613,7 +1616,7 @@ section {
           height: 10px;
           width: 30px;
           background-color: #C4171B; }
-          @media (max-width: 410px) {
+          @media (max-width: 390px) {
             .skill-container .skill-area .skill-unit .skill-icons span {
               max-width: 25px; } }
         .skill-container .skill-area .skill-unit .skill-icons.skill-1 span:nth-child(n+2) {
@@ -1637,14 +1640,17 @@ section {
         .skill-container .skill-area .skill-unit .skill-icons.skill-10 span:nth-child(n+11) {
           background: #E6E6E6; }
 
-@media screen and (max-width: 526px) {
+@media screen and (max-width: 750px) {
+  .skill-unit:nth-child(2n+1) {
+    margin-right: 30px !important; } }
+@media screen and (max-width: 460px) {
   .skill-unit:nth-child(2n+1) {
     float: left !important;
     text-align: left !important;
     direction: ltr !important; } }
 @media screen and (max-width: 361px) {
   .skill-area {
-    padding-left: 5px !important; } }
+    margin-left: 5px !important; } }
 .section-work {
   overflow-x: hidden;
   background: #E6E6E6; }
@@ -2139,11 +2145,14 @@ section {
     font-weight: 300;
     margin: 20px auto 60px; }
   @media (max-width: 840px) {
+    .section-contact .social-links {
+      margin-right: 10px;
+      margin-left: 10px; }
     .section-contact .huge {
-      font-size: 30px; } }
+      font-size: 28px; } }
   @media (max-width: 480px) {
     .section-contact .huge {
-      font-size: 22px; } }
+      font-size: 20px; } }
 
 .contact-form {
   background-color: #010101;
@@ -2200,3 +2209,10 @@ section {
       margin-bottom: 20px; }
       .contact-form .actual-contact-form label span {
         display: block; }
+
+@media (max-width: 481px) {
+  .lets-work {
+    font-size: 25px; }
+
+  .actual-contact-form {
+    margin-right: 15px !important; } }

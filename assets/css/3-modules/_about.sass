@@ -9,7 +9,7 @@ section
     margin: 0 auto
     +align-items(center)
     +justify-content(space-between)
-
+        
     .face-img
         +size(120px)
         background-color: #FFFFFF
@@ -24,8 +24,7 @@ section
             background-size: cover
             margin: -10px
             transform: rotate(-45deg)
-
-
+    
 
     [class^="icon-"]
         +size(100px)
@@ -107,6 +106,10 @@ section
             
     [class^="icon-"], .pacman-top
         position: static !important
+        margin-right: 10px
+    
+    .icon-anchor
+        pointer-events: none
                 
     .face-area
         text-align: center
