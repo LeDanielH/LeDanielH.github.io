@@ -1599,11 +1599,11 @@ section {
   overflow-x: hidden; }
   .skill-container .skill-area {
     max-width: 860px;
-    margin: 0px 30px 60px 30px;
+    margin: 0px auto 60px;
     color: #E6E6E6; }
     .skill-container .skill-area .skill-unit {
       width: 339px;
-      margin: 0 auto;
+      margin: 0 20px;
       display: inline-block; }
       .skill-container .skill-area .skill-unit:nth-child(2n+1) {
         float: right;
