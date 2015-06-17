@@ -847,8 +847,8 @@ td, th {
     -webkit-transform: matrix3d(0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
 .mentions-belt .mentions-unit.mentions-active {
-  -webkit-animation: animation 1000ms linear both;
-  animation: animation 1000ms linear both; }
+  -webkit-animation: animation 1200ms linear both;
+  animation: animation 1200ms linear both; }
 
 /* Generated with Bounce.js. Edit at http://goo.gl/bkOekC */
 @-webkit-keyframes animation {
@@ -1959,6 +1959,10 @@ section {
     cursor: pointer;
     display: inline-block;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
     height: 18px;
     width: 18px;
     background-color: #010101;
@@ -1971,6 +1975,10 @@ section {
     transition: 500ms; }
     .mentions-mobile-nav span.mentions-active {
       transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
       -webkit-transition: 500ms;
       -moz-transition: 500ms;
       transition: 500ms;
