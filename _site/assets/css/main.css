@@ -1974,6 +1974,13 @@ section {
       transition: 500ms;
       opacity: 1; }
 
+@-moz-document url-prefix() {
+  .mentions-belt .mentions-unit .mentions-content {
+    margin-left: 10px; }
+    .mentions-belt .mentions-unit .mentions-content .mentions-quote-mark-first {
+      left: 0; }
+    .mentions-belt .mentions-unit .mentions-content .polygon-left {
+      display: none; } }
 @media (max-width: 1200px) {
   .mentions-controls {
     display: none; } }

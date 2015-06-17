@@ -148,9 +148,20 @@
         &.mentions-active
             transform: rotate(90deg)
             +transition(500ms)
-            opacity: 1     
-        
+            opacity: 1
             
+@-moz-document url-prefix()
+    .mentions-belt
+        .mentions-unit
+            .mentions-content
+                margin-left: 10px
+                
+                .mentions-quote-mark-first
+                    left: 0
+
+                .polygon-left
+                    display: none
+
 @media (max-width: 1200px)
     .mentions-controls
         display: none
