@@ -1581,9 +1581,11 @@ section {
     .face-area .face-img {
       margin: 30px auto;
       pointer-events: none; }
+      .face-area .face-img .face-card .profile-img {
+        position: relative; }
       .face-area .face-img .face-card .logo-img {
         position: relative;
-        display: hidden; } }
+        display: none; } }
 @media screen and (max-width: 690px) {
   .face-area {
     display: block;
