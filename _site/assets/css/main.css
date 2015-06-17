@@ -1581,7 +1581,8 @@ section {
       margin: 30px auto;
       pointer-events: none; }
       .face-area .face-img .face-card .logo-img {
-        position: relative; } }
+        position: relative;
+        display: hidden; } }
 @media screen and (max-width: 690px) {
   .face-area {
     display: block;
