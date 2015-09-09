@@ -2,13 +2,13 @@
 title: Le<span class="red">Daniel</span>_H
 title-header: Daniel&acute;s Portfolio
 email: daniel.hoksza@gmail.com
-profile-pic: 'profile-pic.png'
+profile-pic: 'profile-pic-2.png'
 logo-pic: 'logo-pic.png'
 description: Designer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Composer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Father
 seo-description: Daniel Hoksza portfolio website.
 rel-author: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
 rel-publisher: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
-avatar: 'profile-pic.jpg'
+avatar: 'profile-pic-2.png'
 background: 'ledaniel400.png'
 intro: I design websites&#44; I compose music&#44; I rap for fun and I love to play video games. I used to catch fish in the Bering Sea. I am currenly working on my programming skills. <a href=https://bsvs.me target=_blank>BERINGSEAVERSUS.ME</a> is my biggest project so far.
 
@@ -59,7 +59,3 @@ contacts:
 - {icon: 'ic-twitter', url: 'https://twitter.com/LeDaniel_H'}
 - {icon: 'ic-soundcloud', url: 'https://soundcloud.com/diwerio'}
 - {icon: 'ic-linkedin2', url: 'https://cz.linkedin.com/pub/daniel-hoksza/36/b29/881'}
-
-# For no JS users
-projectNoscript: >
-    **Enable your JS!**
