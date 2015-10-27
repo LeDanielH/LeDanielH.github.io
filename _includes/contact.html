@@ -1,15 +1,13 @@
 <section class="section-contact">
-    <h3 id="contact">Contact</h3>
-    <div class="social-links">
-        {% for contacts in site.data.portfolio.contacts %}
-            <div class="social-wrap">
-                <div class="social-rot"></div>
-                <a href="{{ contacts.url }}" target="_blank" class="{{ contacts.icon }}"></a>
-            </div>
-        {% endfor %}
-    </div>
-    
-    <hr class="double-hr">
-    
-    <a class="huge" href="{{ site.data.portfolio.email }}">{{ site.data.portfolio.email }}</a>
+	<h3 id="contact">Contact</h3>
+	<div class="social-links">
+		{% for contacts in site.data.portfolio.contacts %}
+			<div class="social-wrap">
+				<div class="social-rot"></div>
+				<a href="{{ contacts.url }}" target="_blank" class="{{ contacts.icon }}"></a>
+			</div>
+		{% endfor %}
+	</div>
+	<hr class="double-hr">
+	<p class="huge">{{ site.data.portfolio.email }}</p>
 </section>
