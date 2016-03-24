@@ -1,79 +1,69 @@
 @font-face {
-	font-family: 'icomoon';
-	src: url('fonts/icomoon.eot');
-}
-@font-face {
-	font-family: 'icomoon';
-	src: url(data:application/x-font-ttf;charset=utf-8;base64,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) format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-[class^="ic-"], [class*=" ic-"] {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?wfvtzs');
+    src:    url('fonts/icomoon.eot?wfvtzs#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?wfvtzs') format('truetype'),
+        url('fonts/icomoon.woff?wfvtzs') format('woff'),
+        url('fonts/icomoon.svg?wfvtzs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.ic-home:before {
-	content: "\e900";
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
-.ic-equalizer2:before {
-	content: "\e993";
+
+.icon-google-plus:before {
+    content: "\e901";
 }
-.ic-power:before {
-	content: "\e9b5";
+.icon-hangouts:before {
+    content: "\e902";
 }
-.ic-play3:before {
-	content: "\ea1c";
+.icon-facebook:before {
+    content: "\e903";
 }
-.ic-pause2:before {
-	content: "\ea1d";
+.icon-instagram:before {
+    content: "\e904";
 }
-.ic-stop2:before {
-	content: "\ea1e";
+.icon-twitter:before {
+    content: "\e905";
 }
-.ic-backward2:before {
-	content: "\ea1f";
+.icon-flickr2:before {
+    content: "\e906";
 }
-.ic-forward3:before {
-	content: "\ea20";
+.icon-behance:before {
+    content: "\e907";
 }
-.ic-first:before {
-	content: "\ea21";
+.icon-steam:before {
+    content: "\e908";
 }
-.ic-last:before {
-	content: "\ea22";
+.icon-github:before {
+    content: "\e900";
 }
-.ic-previous2:before {
-	content: "\ea23";
+.icon-soundcloud:before {
+    content: "\e909";
 }
-.ic-next2:before {
-	content: "\ea24";
+.icon-skype:before {
+    content: "\e90a";
 }
-.ic-google-plus:before {
-	content: "\ea88";
+.icon-linkedin2:before {
+    content: "\e90b";
 }
-.ic-instagram:before {
-	content: "\ea90";
+.icon-git:before {
+    content: "\e90c";
 }
-.ic-twitter:before {
-	content: "\ea91";
+.icon-codepen:before {
+    content: "\e90d";
 }
-.ic-soundcloud:before {
-	content: "\eac4";
-}
-.ic-skype:before {
-	content: "\eac6";
-}
-.ic-linkedin2:before {
-	content: "\eac9";
-}
+

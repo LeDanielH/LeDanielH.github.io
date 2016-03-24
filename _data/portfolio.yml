@@ -10,7 +10,7 @@ rel-author: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
 rel-publisher: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
 avatar: 'profile-pic-2.png'
 background: 'ledaniel400.png'
-intro: I design websites&#44; I compose music&#44; I rap for fun and I love to play video games. I used to catch fish in the Bering Sea. <a href="https://beringseaversus.me" target="_blank">BERINGSEAVERSUS.ME</a> is my biggest project so far.
+intro: I'm a front end developer and designer. Building and creating new stuff is my passion. In my spare time I try to spend as much time as I can with my son but I also compose music, I write lyrics, rap and I love to play video games. <a href="https://beringseaversus.me" target="_blank">BERINGSEAVERSUS.ME</a> is my biggest project so far.
 
 #MENU ITEM LIST
 
@@ -26,12 +26,12 @@ menu:
 skills:
 - {name: Work Ethic, value: '10'}
 - {name: Flexibility, value: '8'}
-- {name: Social Skills, value: '4'}
+- {name: Small talk, value: '2'}
 - {name: Empathy, value: '8'}
 - {name: Problem Solving, value: '9'}
-- {name: Coaching Skills, value: '9'}
-- {name: Learning, value: '7'}
-- {name: Initiative, value: '10'}
+- {name: Sense of Humor, value: '10'}
+- {name: Learning Speed, value: '7'}
+- {name: Trustworthiness, value: '10'}
 
 #PROJECTS/WORK LIST
 
@@ -44,18 +44,21 @@ projects:
 #mentions
 
 mentions:
-- {logotop: 'xman-cz-kos-on-white.png', url: 'http://xman.idnes.cz/prace-na-rybarske-lodi-v-beringove-mori-d9d-/xman-adrenalin.aspx?c=A141207_220552_xman-adrenalin_mku', content: <strong>Interview</strong> about my life experience on a fishing boat in the Bering Sea. How I got the job&#44; about the working conditions&#44; injuries I witnessed and some personal stuff about me. My website BERINGSEAVERSUS.ME is also mentioned in this interview., name: XMAN.CZ, title: A website for men... with balls., logobottom: 'xman-cz-kos-on-black.png' }
+- {logotop: 'xman-cz-kos-on-white.png', url: 'http://xman.idnes.cz/prace-na-rybarske-lodi-v-beringove-mori-d9d-/xman-adrenalin.aspx?c=A141207_220552_xman-adrenalin_mku', content: Interview about my life experience on a fishing boat in the Bering Sea. How I got the job&#44; about the working conditions&#44; injuries I witnessed and some personal stuff about me. My website BERINGSEAVERSUS.ME is also mentioned in this interview., name: XMAN.CZ, title: A website for men... with balls., logobottom: 'xman-cz-kos-on-black.png' }
 - {logotop: 'respekt-cz-kos-on-white.png', url: 'http://respekt.ihned.cz/c1-62829200-na-rybarske-lodi-v-beringove-mori', content: I wrote an article called &#34;One Day On A Fishing Boat In The Bering Sea&#34; for one of the most respected magazines in the Czech Republic. , name: RESPEKT.CZ, title: Weekly newsmagazine published in Prague&#44; CZ., logobottom: 'respekt-cz-kos-on-black.png' }
 - {logotop: 'amerika-cz-kos-on-white.png', url: 'http://www.amerika.cz/clanek/neflakej-se-ty-prace-na-lodi-na-aljasce-je-pekne-drsna-rika-cesky-namornik', content: An article/interview about my work experience on a fishing boat in the Bering Sea and also about my website BERINGSEAVERSUS.ME. My pains&#44; my gains., name: AMERIKA.CZ, title: For people traveling to USA. Based in Prague&#44; CZ., logobottom: 'amerika-cz-kos-on-black.png' }
-- {logotop: 'fishery-nation-kos-on-white.png', url: 'http://fisherynation.com/archives/35126', content: <em>This is a great website&#44; and it&#39;s very informative. You wanna go&#63; This guy will get you there. </em>My website BSVS.ME recommended by FISHERYNATION.COM, name: FISHERYNATION.COM, title: Fishing news from all over the world, logobottom: 'fishery-nation-kos-on-black.png' }
+- {logotop: 'fishery-nation-kos-on-white.png', url: 'http://fisherynation.com/archives/35126', content: <em>This is a great website&#44; and it&#39;s very informative. You wanna go&#63; This guy will get you there. </em>My website BERINGSEAVERSUS.ME recommended by FISHERYNATION.COM, name: FISHERYNATION.COM, title: Fishing news from all over the world, logobottom: 'fishery-nation-kos-on-black.png' }
 
 # Change site default images and content
 
 #contact
 
 contacts:
-- {icon: 'ic-google-plus', url: 'https://plus.google.com/+DanielHoksza/posts/p/pub'}
-- {icon: 'ic-instagram', url: 'https://instagram.com/beringseaversus.me/'}
-- {icon: 'ic-twitter', url: 'https://twitter.com/LeDaniel_H'}
-- {icon: 'ic-soundcloud', url: 'https://soundcloud.com/diwerio'}
-- {icon: 'ic-linkedin2', url: 'https://cz.linkedin.com/pub/daniel-hoksza/36/b29/881'}
+- {icon: 'fa-github', url: 'https://github.com/LeDanielH'}
+- {icon: 'fa-codepen', url: 'http://codepen.io/LeDanielH/'}
+- {icon: 'fa-linkedin', url: 'https://cz.linkedin.com/pub/daniel-hoksza/36/b29/881'}
+- {icon: 'fa-google-plus', url: 'https://plus.google.com/+DanielHoksza/posts/p/pub'}
+- {icon: 'fa-instagram', url: 'https://instagram.com/beringseaversus.me/'}
+- {icon: 'fa-twitter', url: 'https://twitter.com/LeDaniel_H'}
+- {icon: 'fa-soundcloud', url: 'https://soundcloud.com/diwerio'}
+- {icon: 'fa-steam', url: 'http://steamcommunity.com/id/warmeeg/'}

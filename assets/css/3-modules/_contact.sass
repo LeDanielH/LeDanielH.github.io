@@ -2,7 +2,7 @@
     text-align: center
     
     .social-links
-        max-width: 700px
+        max-width: 900px
         margin: 0 auto 60px
         padding: 0 20px
         +display(flex)
@@ -40,6 +40,27 @@
                 color: $white
                 font-size: 25px
 
+            .codecademy-icon
+                +position(relative)
+                color: $white
+                img
+                    +position(absolute, 10px 22px null null)
+                    filter: invert(100%)
+                    +size(32px)
+            .fa-soundcloud
+                +position(absolute, null null null 9px)
+            .fa-google-plus
+                +position(absolute, 1px null null 9px)
+            .fa-instagram
+                +position(absolute, 2px 11px null null)
+            .fa-github
+                +position(absolute, 1px 13px null null)
+            .fa-codepen
+                +position(absolute, 1px 11px null null)
+            .fa-linkedin
+                +position(absolute, null 13px null null)
+            .fa-twitter
+                +position(absolute, 2px 12px null null)
 
             &:hover
                 .social-rot

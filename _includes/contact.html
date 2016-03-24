@@ -1,10 +1,16 @@
 <section class="section-contact">
-	<h3 id="contact">Contact</h3>
+	<h3 id="contact">Profiles</h3>
 	<div class="social-links">
+		<div class="social-wrap">
+			<div class="social-rot"></div>
+			<a href="https://www.codecademy.com/codeMaster26564" target="_blank" class="codecademy-icon">
+				<img src="assets/img/codecademy-icon.png" alt="codecademy icon">
+			</a>
+		</div>
 		{% for contacts in site.data.portfolio.contacts %}
 			<div class="social-wrap">
 				<div class="social-rot"></div>
-				<a href="{{ contacts.url }}" target="_blank" class="{{ contacts.icon }}"></a>
+				<a href="{{ contacts.url }}" target="_blank" class="fa {{ contacts.icon }}"></a>
 			</div>
 		{% endfor %}
 	</div>
