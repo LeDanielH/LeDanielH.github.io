@@ -54,7 +54,7 @@ mentions:
 #contact
 
 contacts:
-- {icon: 'fa-github', url: 'https://github.com/LeDanielH'}
+- {icon: 'fa-github', url: 'https://github.com/LeDanielH?tab=repositories'}
 - {icon: 'fa-codepen', url: 'http://codepen.io/LeDanielH/'}
 - {icon: 'fa-linkedin', url: 'https://cz.linkedin.com/pub/daniel-hoksza/36/b29/881'}
 - {icon: 'fa-google-plus', url: 'https://plus.google.com/+DanielHoksza/posts/p/pub'}
