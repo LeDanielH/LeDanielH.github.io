@@ -3445,26 +3445,33 @@ section {
     position: relative;
     height: 150px;
     width: 150px;
-    perspective: 1000; }
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    cursor: pointer; }
     .face-area .face-img .face-card {
+      -webkit-transform-style: preserve-3d;
       transform-style: preserve-3d;
       transition: all 300ms linear; }
       .face-area .face-img .face-card:hover {
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg); }
       .face-area .face-img .face-card .profile-img {
         position: absolute;
         height: 150px;
         width: 150px;
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden; }
       .face-area .face-img .face-card .logo-img {
         height: 150px;
         width: 150px;
         position: absolute;
+        -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
         backface-visibility: hidden; }
   .face-area [class^="icon-"] {
     height: 100px;
-    width: 100px; }
+    width: 100px;
+    cursor: pointer; }
     .face-area [class^="icon-"].icon-code {
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
