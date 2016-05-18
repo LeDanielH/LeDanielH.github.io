@@ -4,13 +4,13 @@ title-header: Daniel&acute;s Portfolio
 email: daniel.hoksza@gmail.com
 profile-pic: 'profile-pic-2.png'
 logo-pic: 'logo-pic.png'
-description: Designer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Developer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Father
+description: Designer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Developer &nbsp;&nbsp;<span class="red">//</span>&nbsp;&nbsp; Daddy
 seo-description: Daniel Hoksza portfolio website.
 rel-author: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
 rel-publisher: https://plus.google.com/u/0/+DanielHoksza/posts/p/pub
 avatar: 'profile-pic-2.png'
 background: 'ledaniel400.png'
-intro: I'm a front end developer and designer. Building and creating new stuff is my passion. In my spare time I try to spend as much time as I can with my son but I also compose music, I write lyrics, rap and I love to play video games. <a href="https://beringseaversus.me" target="_blank">BERINGSEAVERSUS.ME</a> is my biggest project so far.
+intro: I'm a front end developer and designer. Building and creating new stuff is my passion. In my spare time I try to spend as much time as I can with my son Oliver, but I also compose music, I write lyrics, rap and I love to play video games. <a href="https://beringseaversus.me" target="_blank">BERINGSEAVERSUS.ME</a> is my biggest project so far.
 
 #MENU ITEM LIST
 
@@ -30,7 +30,7 @@ skills:
 - {name: Empathy, value: '8'}
 - {name: Problem Solving, value: '9'}
 - {name: Sense of Humor, value: '10'}
-- {name: Learning Speed, value: '7'}
+- {name: Learning, value: '7'}
 - {name: Trustworthiness, value: '10'}
 
 #PROJECTS/WORK LIST
